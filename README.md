@@ -2,7 +2,7 @@
 
 Based on quadportnick/cups-airprint and andrewmichael/docker-cups-airprint.
 
-Simply added Xerox WorkCentre 6515 and 3335 PPDs. Deleted airprint features.
+Simply added Xerox WorkCentre 6515 and 3335 PPDs. And nano. Missed airprint features.
 
  https://github.com/quadportnick/docker-cups-airprint
  https://github.com/andrewmichael/docker-cups-airprint
