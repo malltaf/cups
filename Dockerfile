@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y \
 	cups-pdf \
 	inotify-tools \
 	python-cups \
-	wget
+	wget \
+	nano
 
 RUN wget http://downloadcenter.samsung.com/content/DR/201407/20140710110802438/ULD_V1.00.27.04.tar.gz && tar xvzf ULD_V1.00.27.04.tar.gz
 RUN yes | /uld/install.sh
