@@ -1,0 +1,10 @@
+version: "3"
+services:
+  cups_dd:
+    build:
+      context: .
+    image: cups_dd:1.b.2
+    ports:
+      - 0.0.0.0:631:631
+    volumes:
+      - ./cups:/etc/cups
