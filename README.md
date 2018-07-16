@@ -1,4 +1,6 @@
-# Based on quadportnick/cups-airprint and andrewmichael/docker-cups-airprint
+# Docker. CUPS. Ubuntu18.
+
+Based on quadportnick/cups-airprint and andrewmichael/docker-cups-airprint.
 
 Simply added Xerox WorkCentre 6515 and 3335 PPDs. Deleted airprint features.
 
@@ -9,7 +11,6 @@ This Ubuntu-based Docker image runs a CUPS instance.
 
 ## Prereqs
 * No other printers should be shared under Control Panel>External Devices>Printer so that the DSM's CUPS is not running. 
-* `Enable Bonjour service discovery` needs to be marked under Control Panel>Network>DSM Settings 
 
 ## Configuration
 
