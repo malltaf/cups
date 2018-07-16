@@ -1,8 +1,9 @@
-# Based on quadportnick/cups-airprint
+# Based on quadportnick/cups-airprint and andrewmichael/docker-cups-airprint
 
-Added wget and samsung drivers
+Simply added Xerox WorkCentre 6515 and 3335 PPDs. Deleted airprint features.
 
  https://github.com/quadportnick/docker-cups-airprint
+ https://github.com/andrewmichael/docker-cups-airprint
 
 This Ubuntu-based Docker image runs a CUPS instance.
 
